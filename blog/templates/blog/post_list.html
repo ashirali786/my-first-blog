@@ -19,4 +19,9 @@
             <p>Public schooling is better than online schooling </p>
         </div>
     </body>
-</html>
+</html>{{ posts }}
+<QuerySet [<Post: My second post>, <Post: My first post>]>
+        {% for post in posts %}
+        {{ post }}
+    {% endfor %}
+    
